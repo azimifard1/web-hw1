@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  border: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #3F3B3B;
+  font-size: 14px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1440px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 15px;
+  width: 100%;
+}
+
+.nav ul,
+.nav div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+hr {
+  border: 1px solid #EAEAEA;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.section div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section div .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 100px 0;
+}
+
+.section div .content .table-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+.section div .content .table-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+.section div .content .table-content ul a {
+  color: #5D6F88;
+}
+
+.section div .content .table-content ul a.active {
+  color: #2F5BD9;
+}
+
+.section div .content .text {
+  width: 60%;
+}
+
+.section div .content .text p {
+  font-weight: 400;
+  margin-right: 20%;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.section div h3 {
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: 24px;
+}
+
+.section div p {
+  color: #959393;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.section div img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.footer {
+  height: 295px;
+}
+
+.footer .section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.footer .section img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.footer .section .desc {
+  margin: 30px 0;
+}
+
+.footer .section p {
+  font-weight: 400;
+  color: #3F3B3B;
+  font-size: 24px;
+}
+
+.footer .section button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  background: #2F5BD9;
+  color: white;
+  -webkit-transition: 200ms all;
+  transition: 200ms all;
+  border-radius: 3px;
+  width: 240px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer .section button:hover {
+  background: #22429a;
+}
+/*# sourceMappingURL=style.css.map */
